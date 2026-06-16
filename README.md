@@ -1,16 +1,24 @@
-<div style="background-color: #121212; padding: 40px; border-radius: 20px; font-family: sans-serif; min-height: 100vh; color: #ff9800; border: 3px solid #ff9800;">
+<div style="background-color: #0b132b; min-height: 100vh; padding: 30px; font-family: 'Segoe UI', sans-serif; display: flex; flex-direction: column; align-items: center; color: #ffffff;">
 
-  <h1 style="text-align: center; color: #ff9800; font-size: 2.5em; margin-bottom: 10px;">بطل من الزهروان 💪🏻</h1>
-  <h2 style="text-align: center; color: #e0e0e0; font-size: 1.2em; margin-top: 0;">المركز الرقمي الإرشادي لفريق بطل من الزهروان</h2>
+  <!-- العنوان الرئيسي -->
+  <div style="text-align: center; margin-bottom: 50px;">
+    <h1 style="color: #ff9800; font-size: 2.2em; text-shadow: 0 0 10px #ff9800;">بطل من الزهروان 💪🏻</h1>
+    <h2 style="color: #ffffff; font-size: 1.1em;">المركز الرقمي الإرشادي لفريق بطل من الزهروان</h2>
+  </div>
 
-  <div style="display: flex; flex-direction: column; gap: 20px; margin-top: 40px; max-width: 600px; margin-left: auto; margin-right: auto;">
+  <!-- المربعات (بأطراف متوهجة - Glow effect) -->
+  <div style="width: 100%; max-width: 650px; display: flex; flex-direction: column; gap: 25px;">
 
-    <div style="background-color: #1e1e1e; padding: 25px; border-radius: 15px; border: 2px solid #ff9800; text-align: center; cursor: pointer; transition: 0.3s;">
-      <h3 style="color: #ffffff; margin: 0; font-size: 1.3em;">📋 نماذج استبيان لقاء الأمهات الشهري</h3>
+    <!-- المربع الأول: الاستبيانات -->
+    <div style="background-color: #1c2541; padding: 25px; border-radius: 15px; border: 2px solid #ff9800; box-shadow: 0 0 15px #ff980055; text-align: center;">
+      <h3 style="margin-bottom: 20px; color: #ff9800;">📋 نماذج استبيان لقاء الأمهات الشهري</h3>
+      <button style="background-color: #ff9800; color: #0b132b; border: none; padding: 10px 25px; border-radius: 8px; font-weight: bold; cursor: pointer;">تحميل النماذج</button>
     </div>
 
-    <div style="background-color: #1e1e1e; padding: 25px; border-radius: 15px; border: 2px solid #ff9800; text-align: center; cursor: pointer; transition: 0.3s;">
-      <h3 style="color: #ffffff; margin: 0; font-size: 1.3em;">⚠️ نماذج إنذارات الفصل من البرنامج</h3>
+    <!-- المربع الثاني: الإنذارات -->
+    <div style="background-color: #1c2541; padding: 25px; border-radius: 15px; border: 2px solid #ff9800; box-shadow: 0 0 15px #ff980055; text-align: center;">
+      <h3 style="margin-bottom: 20px; color: #ff9800;">⚠️ نماذج إنذارات الفصل من البرنامج</h3>
+      <button style="background-color: #ff9800; color: #0b132b; border: none; padding: 10px 25px; border-radius: 8px; font-weight: bold; cursor: pointer;">تحميل الإنذارات</button>
     </div>
 
   </div>
