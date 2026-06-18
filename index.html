@@ -34,7 +34,6 @@
             opacity: 0.8;
         }
 
-        /* حاوية الدوائر */
         .circles-container {
             display: flex;
             flex-wrap: wrap;
@@ -43,7 +42,6 @@
             max-width: 1100px;
         }
 
-        /* تصميم الدائرة الواحدة */
         .category-circle {
             width: 320px;
             height: 320px;
@@ -98,11 +96,19 @@
             background-color: #e68a00;
         }
 
-        /* دائرة للمستقبل (استبيانات قريباً) */
-        .placeholder-circle {
-            border-style: dashed;
-            opacity: 0.6;
-            background-color: transparent;
+        .form-circle {
+            border-color: #673AB7;
+        }
+        .form-circle h3 {
+            color: #673AB7;
+            border-color: rgba(103, 58, 183, 0.3);
+        }
+        .form-circle .btn {
+            background-color: #673AB7;
+            color: #ffffff;
+        }
+        .form-circle .btn:hover {
+            background-color: #512DA8;
         }
     </style>
 </head>
@@ -124,14 +130,8 @@
             </div>
         </div>
 
-        <div class="category-circle placeholder-circle">
-            <h3>📋 نماذج الاستبيانات</h3>
+        <div class="category-circle form-circle">
+            <h3>📝 التقارير الأسبوعية</h3>
             <div class="links-group">
-                <p style="font-size: 0.9em; color: #ff9800;">قريباً.. سيتم إضافة النماذج</p>
-            </div>
-        </div>
-
-        </div>
-
-</body>
-</html>
+                <p style="font-size: 0.9em; margin-bottom: 15px;">فورم تسجيل الإنجاز الأسبوعي للميسرة</p>
+                <a href="https://forms.
